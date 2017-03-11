@@ -1,0 +1,180 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{92252039-A4B1-4978-AC1A-A78379B0679B}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="Package\IocpXE.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpVariantClient\IocpVariantClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpVariantServer\IocpVariantServer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpPacketServer\IocpPacketServer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpPacketClient\IocpPacketClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpHttpServer\HttpServer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpHttpTunnel\HttpTunnel.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpServer\IocpServer.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpClient\IocpClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpDatasnapServer\IocpDsGUI.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\IocpDatasnapServer\IocpDsSvr.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\SslClient\SslClient.dproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="Test\SslServer\SslServer.dproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="IocpXE">
+			<MSBuild Projects="Package\IocpXE.dproj"/>
+		</Target>
+		<Target Name="IocpXE:Clean">
+			<MSBuild Projects="Package\IocpXE.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpXE:Make">
+			<MSBuild Projects="Package\IocpXE.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="IocpVariantClient">
+			<MSBuild Projects="Test\IocpVariantClient\IocpVariantClient.dproj"/>
+		</Target>
+		<Target Name="IocpVariantClient:Clean">
+			<MSBuild Projects="Test\IocpVariantClient\IocpVariantClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpVariantClient:Make">
+			<MSBuild Projects="Test\IocpVariantClient\IocpVariantClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="IocpVariantServer">
+			<MSBuild Projects="Test\IocpVariantServer\IocpVariantServer.dproj"/>
+		</Target>
+		<Target Name="IocpVariantServer:Clean">
+			<MSBuild Projects="Test\IocpVariantServer\IocpVariantServer.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpVariantServer:Make">
+			<MSBuild Projects="Test\IocpVariantServer\IocpVariantServer.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="IocpPacketServer">
+			<MSBuild Projects="Test\IocpPacketServer\IocpPacketServer.dproj"/>
+		</Target>
+		<Target Name="IocpPacketServer:Clean">
+			<MSBuild Projects="Test\IocpPacketServer\IocpPacketServer.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpPacketServer:Make">
+			<MSBuild Projects="Test\IocpPacketServer\IocpPacketServer.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="IocpPacketClient">
+			<MSBuild Projects="Test\IocpPacketClient\IocpPacketClient.dproj"/>
+		</Target>
+		<Target Name="IocpPacketClient:Clean">
+			<MSBuild Projects="Test\IocpPacketClient\IocpPacketClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpPacketClient:Make">
+			<MSBuild Projects="Test\IocpPacketClient\IocpPacketClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="HttpServer">
+			<MSBuild Projects="Test\IocpHttpServer\HttpServer.dproj"/>
+		</Target>
+		<Target Name="HttpServer:Clean">
+			<MSBuild Projects="Test\IocpHttpServer\HttpServer.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="HttpServer:Make">
+			<MSBuild Projects="Test\IocpHttpServer\HttpServer.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="HttpTunnel">
+			<MSBuild Projects="Test\IocpHttpTunnel\HttpTunnel.dproj"/>
+		</Target>
+		<Target Name="HttpTunnel:Clean">
+			<MSBuild Projects="Test\IocpHttpTunnel\HttpTunnel.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="HttpTunnel:Make">
+			<MSBuild Projects="Test\IocpHttpTunnel\HttpTunnel.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="IocpServer">
+			<MSBuild Projects="Test\IocpServer\IocpServer.dproj"/>
+		</Target>
+		<Target Name="IocpServer:Clean">
+			<MSBuild Projects="Test\IocpServer\IocpServer.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpServer:Make">
+			<MSBuild Projects="Test\IocpServer\IocpServer.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="IocpClient">
+			<MSBuild Projects="Test\IocpClient\IocpClient.dproj"/>
+		</Target>
+		<Target Name="IocpClient:Clean">
+			<MSBuild Projects="Test\IocpClient\IocpClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpClient:Make">
+			<MSBuild Projects="Test\IocpClient\IocpClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="IocpDsGUI">
+			<MSBuild Projects="Test\IocpDatasnapServer\IocpDsGUI.dproj"/>
+		</Target>
+		<Target Name="IocpDsGUI:Clean">
+			<MSBuild Projects="Test\IocpDatasnapServer\IocpDsGUI.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpDsGUI:Make">
+			<MSBuild Projects="Test\IocpDatasnapServer\IocpDsGUI.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="IocpDsSvr">
+			<MSBuild Projects="Test\IocpDatasnapServer\IocpDsSvr.dproj"/>
+		</Target>
+		<Target Name="IocpDsSvr:Clean">
+			<MSBuild Projects="Test\IocpDatasnapServer\IocpDsSvr.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="IocpDsSvr:Make">
+			<MSBuild Projects="Test\IocpDatasnapServer\IocpDsSvr.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="SslClient">
+			<MSBuild Projects="Test\SslClient\SslClient.dproj"/>
+		</Target>
+		<Target Name="SslClient:Clean">
+			<MSBuild Projects="Test\SslClient\SslClient.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="SslClient:Make">
+			<MSBuild Projects="Test\SslClient\SslClient.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="SslServer">
+			<MSBuild Projects="Test\SslServer\SslServer.dproj"/>
+		</Target>
+		<Target Name="SslServer:Clean">
+			<MSBuild Projects="Test\SslServer\SslServer.dproj" Targets="Clean"/>
+		</Target>
+		<Target Name="SslServer:Make">
+			<MSBuild Projects="Test\SslServer\SslServer.dproj" Targets="Make"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="IocpXE;IocpVariantClient;IocpVariantServer;IocpPacketServer;IocpPacketClient;HttpServer;HttpTunnel;IocpServer;IocpClient;IocpDsGUI;IocpDsSvr;SslClient;SslServer"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="IocpXE:Clean;IocpVariantClient:Clean;IocpVariantServer:Clean;IocpPacketServer:Clean;IocpPacketClient:Clean;HttpServer:Clean;HttpTunnel:Clean;IocpServer:Clean;IocpClient:Clean;IocpDsGUI:Clean;IocpDsSvr:Clean;SslClient:Clean;SslServer:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="IocpXE:Make;IocpVariantClient:Make;IocpVariantServer:Make;IocpPacketServer:Make;IocpPacketClient:Make;HttpServer:Make;HttpTunnel:Make;IocpServer:Make;IocpClient:Make;IocpDsGUI:Make;IocpDsSvr:Make;SslClient:Make;SslServer:Make"/>
+		</Target>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')" Project="$(BDS)\Bin\CodeGear.Group.Targets"/>
+	</Project>
